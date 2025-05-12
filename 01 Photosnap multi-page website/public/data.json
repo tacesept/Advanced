@@ -1,0 +1,132 @@
+{
+  "stories": [
+    {
+      "id": 1,
+      "title": "The Mountains",
+      "author": "John Appleseed",
+      "date": "April 16th 2020",
+      "imgMobile": "./assets/stories/mobile/mountains.jpg", 
+      "imgDesktop": "./assets/stories/desktop/mountains.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Sunset Cityscapes",
+      "author": "Benjamin Cruz",
+      "date": "April 14th 2020",
+      "imgMobile": "./assets/stories/mobile/cityscapes.jpg",
+      "imgDesktop": "./assets/stories/desktop/cityscapes.jpg"
+    },
+    {
+      "id": 3,
+      "title": "18 Days Voyage",
+      "author": "by Alexei Borodin",
+      "date": "April 11th 2020",
+      "imgMobile": "./assets/stories/mobile/18-days-voyage.jpg",
+      "imgDesktop": "./assets/stories/desktop/18-days-voyage.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Architecturals",
+      "author": "Ryuichi Sakamoto",
+      "date": "April 9th 2020",
+      "imgMobile": "./assets/stories/mobile/architecturals.jpg",
+      "imgDesktop": "./assets/stories/desktop/architecturals.jpg"
+    },
+    {
+      "id": 5,
+      "title": "World Tour 2019",
+      "author": "by Timothy Wagner",
+      "date": "April 7th 2020",
+      "imgMobile": "./assets/stories/mobile/world-tour-2019.jpg",
+      "imgDesktop": "./assets/stories/desktop/world-tour-2019.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Unforeseen Corners",
+      "author": "by William Malcolm",
+      "date": "April 3rd 2020",
+      "imgMobile": "./assets/stories/mobile/unforeseen-corners.jpg",
+      "imgDesktop": "./assets/stories/desktop/unforeseen-corners.jpg"
+    },
+    {
+      "id": 7,
+      "title": "King on Africa: Part II",
+      "author": "by Tim Hillenburg",
+      "date": "March 29th 2020",
+      "imgMobile": "./assets/stories/mobile/king-on-africa-part-ii.jpg",
+      "imgDesktop": "./assets/stories/desktop/king-on-africa-part-ii.jpg"
+    },
+    {
+      "id": 8,
+      "title": "The Trip to Yedremne",
+      "author": "by Felicia Rourke",
+      "date": "March 21st 2020",
+      "imgMobile": "./assets/stories/mobile/trip-to-yedremne.jpg",
+      "imgDesktop": "./assets/stories/desktop/trip-to-yedremne.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Rage of the Seas",
+      "author": "by Mohammed Abdul",
+      "date": "March 19th 2020",
+      "imgMobile": "./assets/stories/mobile/rage-of-the-seas.jpg",
+      "imgDesktop": "./assets/stories/desktop/rage-of-the-seas.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Running Free",
+      "author": "by Michelle",
+      "date": "March 16th 2020",
+      "imgMobile": "./assets/stories/mobile/running-free.jpg",
+      "imgDesktop": "./assets/stories/desktop/running-free.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Behind the Waves",
+      "author": "by Lamarr Wilson",
+      "date": "March 11th 2020",
+      "imgMobile": "./assets/stories/mobile/behind-the-waves.jpg",
+      "imgDesktop": "./assets/stories/desktop/behind-the-waves.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Calm Waters",
+      "author": "by Samantha Brooke",
+      "date": "March 9th 2020",
+      "imgMobile": "./assets/stories/mobile/calm-waters.jpg",
+      "imgDesktop": "./assets/stories/desktop/calm-waters.jpg"
+    },
+    {
+      "id": 13,
+      "title": "The Milky Way",
+      "author": "by Benjamin Cruz",
+      "date": "March 5th 2020",
+      "imgMobile": "./assets/stories/mobile/the-milky-way.jpg",
+      "imgDesktop": "./assets/stories/desktop/the-milky-way.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Night at The Dark Forest",
+      "author": "by Mohammed Abdul",
+      "date": "March 4th 2020",
+      "imgMobile": "./assets/stories/mobile/night-at-the-dark-forest.jpg",
+      "imgDesktop": "./assets/stories/desktop/night-at-the-dark-forest.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Somwarpet’s Beauty",    
+      "author": "by Michelle",
+      "date": "March 1st 2020",
+      "imgMobile": "./assets/stories/mobile/somwarpet-s-beauty.jpg",
+      "imgDesktop": "./assets/stories/desktop/somwarpet-s-beauty.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Land of Dreams",
+      "author": "by William Malcolm",
+      "date": "February 25th 2020",
+      "imgMobile": "./assets/stories/mobile/land-of-dreams.jpg",
+      "imgDesktop": "./assets/stories/desktop/land-of-dreams.jpg"
+    }
+  ]
+}
