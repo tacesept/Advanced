@@ -219,6 +219,7 @@ header {
   width: 100%;
   background-color: #000;
   color: #fff;
+  text-align: center;
 }
 
 .btn.white {
@@ -1088,7 +1089,7 @@ thead tr {
 }
 
 .feature-row {
-  border-bottom: 1px solid #DFDFDF;
+  border-bottom: 1px solid #dfdfdf;
 }
 
 tbody td {
@@ -1133,4 +1134,50 @@ td[scope="row"] {
   .feature-type span:first-child {
     display: none;
   }
+}
+
+/* sr-only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* menu */
+.menu-nav.active {
+  display: flex;
+}
+
+.menu-nav {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-block: 3.2rem; 
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #dfdfdf;
+  width: 100%;
+}
+
+
+.header-container {
+  position: relative;
+  inset-inline: 0;
+  top: 0;
+  z-index: 20; 
+  background-color: #00000030;
 }

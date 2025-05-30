@@ -16,24 +16,45 @@
   <body>
     <!-- Header -->
     <header>
-      <div class="container container-flex">
-        <nav class="header-nav">
-          <a href="/">
-            <img src="./assets/shared/desktop/logo.svg" alt="logo" />
-          </a>
-          <ul class="header-nav__lists no-mobile">
-            <li><a href="/stories" class="header-nav__link">Stories</a></li>
-            <li><a href="/features" class="header-nav__link">Features</a></li>
-            <li><a href="/pricing" class="header-nav__link">Pricing</a></li>
+      <div class="container">
+        <div class="container-flex">
+          <nav class="header-nav">
+            <a href="/">
+              <img src="./assets/shared/desktop/logo.svg" alt="logo" />
+            </a>
+            <ul class="header-nav__lists no-mobile">
+              <li><a href="/stories" class="header-nav__link">Stories</a></li>
+              <li>
+                <a href="/features" class="header-nav__link">Features</a>
+              </li>
+              <li><a href="/pricing" class="header-nav__link">Pricing</a></li>
+            </ul>
+            <a class="btn fixed no-mobile">Get an invite</a>
+          </nav>
+          <button
+            id="menu-button"
+            class="menu-hamburger"
+            aria-expanded="false"
+            aria-controls="menu"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="6">
+              <g fill-rule="evenodd"><path d="M0 0h20v1H0zM0 5h20v1H0z" /></g>
+            </svg>
+            <span class="sr-only">Show Menu</span>
+          </button>
+        </div>
+        <nav id="menu" class="menu-nav">
+          <ul>
+            <li><a href="stories.html" class="header-nav__link">Stories</a></li>
+            <li>
+              <a href="features.html" class="header-nav__link">Features</a>
+            </li>
+            <li><a href="pricing.html" class="header-nav__link">Pricing</a></li>
           </ul>
-          <a class="btn fixed no-mobile">Get an invite</a>
+          <a class="btn">Get an invite</a>
         </nav>
-        <button class="menu-hamburger">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="6">
-            <g fill-rule="evenodd"><path d="M0 0h20v1H0zM0 5h20v1H0z" /></g>
-          </svg>
-        </button>
       </div>
+      <script src="./src/menu.js" defer></script>
     </header>
 
     <!-- Main -->
@@ -77,7 +98,7 @@
             width="375"
             height="294"
           />
-        </picture> 
+        </picture>
       </section>
 
       <section class="content-block reverse white-bg">
